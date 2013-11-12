@@ -6,6 +6,8 @@ This protocol can take up to 48 samples, requiring a different primer for each s
 
 If preparing many sequences, consider using the dual indexing approach, where 20 primers allow you to prepare up to 96 samples.
 
+For target-specific primers, see the primers protocol in this folder.
+
 **1) Product amplification**
 
 	A first PCR is performed using the primer constructs
