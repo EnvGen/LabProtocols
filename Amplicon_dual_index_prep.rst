@@ -142,12 +142,13 @@ If running only a few samples, it is important to make sure that the sequencer d
 |            |                                            |                                 |
 |            |[option2] N703 + N705 + N706 + any other    |[option2] N503 + N504            |
 |            |                                            |                                 |
-|            |                                            |[option3] N505 + N506            | 
+|            |                                            |[option3] N505 + N506            |
 +------------+--------------------------------------------+---------------------------------+
 |> 12        |N701 + N702 + N703 + N704 + N705 + N706 +   |[option1] N501 + N502 + any other|
 |            |any other                                   |                                 |
 |            |                                            |[option2] N503 + N504 + any other|
 |            |                                            |                                 |
-|            |                                            |[option3] N505 + N506 + any other| 
+|            |                                            |[option3] N505 + N506 + any other|
 +------------+--------------------------------------------+---------------------------------+
+
 
