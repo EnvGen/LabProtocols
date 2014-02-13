@@ -39,11 +39,11 @@ For target-specific primers, see the primers protocol in this folder.
 
 	Multiplex_fwd
 
-		AATGATACGGCGACCACCGAGA{TCTACAC}-[i5 index]-ACACTCTTTCCCTACACGACG
+		AATGATACGGCGACCACCGAGA{TCTACAC}-[F index]-ACACTCTTTCCCTACACGACG
 
 	Multiplex_rev
 
-		CAAGCAGAAGACGGCATACGAGAT-[i7 index]-GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+		CAAGCAGAAGACGGCATACGAGAT-[R index]-GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
 
 	The curly brackets denote bases that will not be read in the sequencer. See notes at the bottom for multiplexing indexes combination guidelines.
 
@@ -84,71 +84,40 @@ Add one second to the elongation time used in the step above. Other, slower poly
 
 Index Sequences
 ---------------
-The following are the 20 standard Nextera Indexes, which can be combined to form 96 unique combinations. Further multiplexing is possible by adding custom primets.
+The following are the 20 standard Nextera Indexes. All of them can be used as forward or reverse primer, allowing for a 20*20=400 unique combinations. When placed in the in the Multiplex_rev primer, the barcode sequence should be reverse complemented, so that it will be read in the correct sense during sequencing.
 
 +------------+------------+-----------+-----------+
 |           i7            |          i5           |
 +============+============+===========+===========+
-|N701	     |TAAGGCGA    |N501       |TAGATCGC   |
+|N701	     |ATTACTCG    |N501       |TATAGCCT   |
 +------------+------------+-----------+-----------+
-|N702        |CGTACTAG    |N502       |CTCTCTAT   | 
+|N702        |TCCGGAGA    |N502       |ATAGAGGC   | 
 +------------+------------+-----------+-----------+ 
-|N703        |AGGCAGAA    |N503       |TATCCTCT   |
+|N703        |CGCTCATT    |N503       |CCTATCCT   |
 +------------+------------+-----------+-----------+ 
-|N704        |TCCTGAGC    |N504       |AGAGTAGA   |
+|N704        |GAGATTCC    |N504       |GGCTCTGA   |
 +------------+------------+-----------+-----------+ 
-|N705        |GGACTCCT    |N505       |GTAAGGAG   |
+|N705        |ATTCAGAA    |N505       |AGGCGAAG   |
 +------------+------------+-----------+-----------+ 
-|N706        |TAGGCATG    |N506       |ACTGCATA   |
+|N706        |GAATTCGT    |N506       |TAATCTTA   |
 +------------+------------+-----------+-----------+ 
-|N707        |CTCTCTAC    |N507       |AAGGAGTA   |
+|N707        |CTGAAGCT    |N507       |CAGGACGT   |
 +------------+------------+-----------+-----------+ 
-|N708        |CAGAGAGG    |N508       |CTAAGCCT   |
+|N708        |TAATGCGC    |N508       |GTACTGAC   |
 +------------+------------+-----------+-----------+ 
-|N709        |GCTACGCT    |*NB!* the i7 barcodes  | 
-+------------+------------+should be reverse      +
-|N710        |CGAGGCTG    |complemented in the    |
-+------------+------------+primers you order,     +
-|N711        |AAGAGGCA    |to be read correctly   | 
-+------------+------------+upon sequencing!       +
-|N712        |GTAGAGGA    |                       |
+|N709        |CGGCTATG    |			  | 
++------------+------------+			  +
+|N710        |TCCGCGAA    |			  |
++------------+------------+			  +
+|N711        |TCTCGCGC    |			  | 
++------------+------------+			  +
+|N712        |AGCGATAG    |                       |
 +------------+------------+-----------+-----------+ 
 
+E.g.: 	Combining the following primers:
+		F701 AATGATACGGCGACCACCGAGATCTACACTAGATCGCACACTCTTTCCCTACACGACG
+		R501 CAAGCAGAAGACGGCATACGAGATAGGCTATAGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+	Will produce Illumina reads with the barcode combination R501-F701, AGGCTATA-ATTACTCG
 
-Index Combinations
-------------------
-If running only a few samples, it is important to make sure that the sequencer detects signal in all channels. To do so, combine indexes as follows:
-
-+------------+--------------------------------------------+---------------------------------+
-|Plex        |i7                                          |i5                               |
-+============+============================================+=================================+
-|1   	     |Any                                         |                                 |
-+------------+--------------------------------------------+                                 +
-|2           |[option1] N701 + N702                       |                                 |
-|            |                                            |                                 |
-|            |[option2] N702 + N704                       |                                 |
-+------------+--------------------------------------------+                                 +
-|3           |[option1] N701 + N702 + N704                |                Any              |
-|            |                                            |                                 |
-|            |[option2] N703 + N705 + N706                |                                 |
-+------------+--------------------------------------------+                                 +
-|4-5         |[option1] N701 + N702 + N704 + any other    |                                 |
-|            |                                            |                                 |
-|            |[option2] N703 + N705 + N706 + any other    |                                 |
-+------------+--------------------------------------------+                                 +
-|6           |N701 + N702 + N703 + N704 + N705 + N706     |                                 |
-+------------+--------------------------------------------+---------------------------------+
-|7-12        |[option1] N701 + N702 + N704 + any other    |[option1] N501 + N502            |
-|            |                                            |                                 |
-|            |[option2] N703 + N705 + N706 + any other    |[option2] N503 + N504            |
-|            |                                            |                                 |
-|            |                                            |[option3] N505 + N506            |
-+------------+--------------------------------------------+---------------------------------+
-|> 12        |N701 + N702 + N703 + N704 + N705 + N706 +   |[option1] N501 + N502 + any other|
-|            |any other                                   |                                 |
-|            |                                            |[option2] N503 + N504 + any other|
-|            |                                            |                                 |
-|            |                                            |[option3] N505 + N506 + any other|
-+------------+--------------------------------------------+---------------------------------+
 
 
