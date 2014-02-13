@@ -115,8 +115,11 @@ The following are the 20 standard Nextera Indexes. All of them can be used as fo
 +------------+------------+-----------+-----------+ 
 
 E.g.: 	Combining the following primers:
+
 		F701 AATGATACGGCGACCACCGAGATCTACACTAGATCGCACACTCTTTCCCTACACGACG
+		
 		R501 CAAGCAGAAGACGGCATACGAGATAGGCTATAGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+		
 	Will produce Illumina reads with the barcode combination R501-F701, AGGCTATA-ATTACTCG
 
 
