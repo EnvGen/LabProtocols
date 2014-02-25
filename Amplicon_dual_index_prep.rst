@@ -120,7 +120,7 @@ E.g.: 	Combining the following primers:
 		
 		R501 CAAGCAGAAGACGGCATACGAGATAGGCTATAGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
 		
-	Will produce Illumina reads with the barcode combination R501-F701, AGGCTATA-ATTACTCG
+	Will produce Illumina reads with the barcode combination R501-F701, TATAGCCT-ATTACTCG.
 
 
 
