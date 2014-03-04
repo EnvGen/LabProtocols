@@ -75,9 +75,7 @@ Add one second to the elongation time used in the step above. Other, slower poly
 
 	Pool all samples together for a total volume of at least 20 μL and a concentration of 2-10 nM / barcoded	template. The molarity of a sample can be calculated using the formula:
 
-				Concentration*10^6
-				__________________	
-				    656.6*Length
+				(Concentration*10^6) / 656.6*Length
 
 **8) Sequencing**
 
@@ -107,13 +105,13 @@ The following are the 20 standard Nextera Indexes. All of them can be used as fo
 +------------+------------+-----------+-----------+ 
 |N708        |TAATGCGC    |N508       |GTACTGAC   |
 +------------+------------+-----------+-----------+ 
-|N709        |CGGCTATG    |			  | 
-+------------+------------+			  +
-|N710        |TCCGCGAA    |			  |
-+------------+------------+			  +
-|N711        |TCTCGCGC    |			  | 
-+------------+------------+			  +
-|N712        |AGCGATAG    |                       |
+|N709        |CGGCTATG    |					  	  |
++------------+------------+					  	  + 
+|N710        |TCCGCGAA    |						  | 
++------------+------------+						  + 
+|N711        |TCTCGCGC    |			  			  | 
++------------+------------+						  + 
+|N712        |AGCGATAG    |			              | 
 +------------+------------+-----------+-----------+ 
 
 E.g.: 	Combining the following primers:
@@ -123,6 +121,5 @@ E.g.: 	Combining the following primers:
 		R501 CAAGCAGAAGACGGCATACGAGATAGGCTATAGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
 		
 	Will produce Illumina reads with the barcode combination R501-F701, TATAGCCT-ATTACTCG.
-
 
 
