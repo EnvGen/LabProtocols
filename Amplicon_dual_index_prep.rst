@@ -2,7 +2,7 @@
 MiSeq Amplicon Sequencing Sample Prep with Dual Barcoding
 =========================================================
 
-This protocol can take up to 96 samples, requiring a total of 22 different primers for each sample. A higher degree of multiplexing can be attained by adding additional outer primers.
+This protocol can take up to 400 samples, requiring a total of 40 different primers for each sample. A higher degree of multiplexing can be attained by adding additional outer primers.
 For target-specific primers, see the primers protocol in this folder.
 
 **1) Product amplification**
@@ -57,7 +57,7 @@ For target-specific primers, see the primers protocol in this folder.
 		Elongation	72°C	****	/
 		Elongation	72°C	2 min
 
-Add one second to the elongation time used in the step above. Other, slower polymerases may require longer times, as well as different annealing temperatures.
+	Add one second to the elongation time used in the step above. Other, slower polymerases may require longer times, as well as different annealing temperatures.
 
 **4) Second cleaning**
 
@@ -108,13 +108,13 @@ The following are the 20 standard Nextera Indexes. All of them can be used as fo
 +------------+------------+-----------+-----------+ 
 |N708        |TAATGCGC    |N508       |GTACTGAC   |
 +------------+------------+-----------+-----------+ 
-|N709        |CGGCTATG    |					  	  |
-+------------+------------+					  	  + 
-|N710        |TCCGCGAA    |						  | 
-+------------+------------+						  + 
-|N711        |TCTCGCGC    |			  			  | 
-+------------+------------+						  + 
-|N712        |AGCGATAG    |			              | 
+|N709        |CGGCTATG    |		  	  |
++------------+------------+		  	  + 
+|N710        |TCCGCGAA    |			  | 
++------------+------------+			  + 
+|N711        |TCTCGCGC    |			  | 
++------------+------------+			  + 
+|N712        |AGCGATAG    |	              	  | 
 +------------+------------+-----------+-----------+ 
 
 E.g.: 	Combining the following primers:
