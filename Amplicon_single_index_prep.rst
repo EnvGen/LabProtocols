@@ -79,6 +79,8 @@ For target-specific primers, see the primers protocol in this folder.
 	Pool all samples together for a total volume of at least 20 μL and a concentration of 10 nM / barcoded	template. The molarity of a sample can be calculated using the formula:
 
 				(Concentration*10^6) / (656.6*Length)
+			
+	Concentration is given in ng/µL and Length in base pairs. The resulting concentration is in nanomolar.
 
 **8) Sequencing**
 
