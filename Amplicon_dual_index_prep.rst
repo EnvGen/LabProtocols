@@ -73,9 +73,12 @@ Add one second to the elongation time used in the step above. Other, slower poly
 
 **7) Sample pooling**
 
-	Pool all samples together for a total volume of at least 20 μL and a concentration of 2-10 nM / barcoded	template. The molarity of a sample can be calculated using the formula:
+	Pool all samples together for a total volume of at least 20 μL and a concentration of 2-10 nM / barcoded template. The molarity of a sample can be calculated using the formula:
 
 				(Concentration*10^6) / (656.6*Length)
+	
+	Where Concentration is in ng/µL, Length is in base-pairs and the resulting value is in nanomolar.
+
 
 **8) Sequencing**
 
