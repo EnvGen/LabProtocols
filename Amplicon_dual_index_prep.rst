@@ -2,7 +2,7 @@
 MiSeq Amplicon Sequencing Sample Prep with Dual Barcoding
 =========================================================
 
-This protocol can take up to 400 samples, requiring a total of 40 different primers for each sample. A higher degree of multiplexing can be attained by adding additional outer primers.
+This protocol can take up to 400 samples, requiring a total of 40 different primers. A higher degree of multiplexing can be attained by adding additional outer primers.
 For target-specific primers, see the primers protocol in this folder.
 
 **1) Product amplification**
