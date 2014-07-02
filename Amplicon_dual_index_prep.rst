@@ -87,7 +87,9 @@ For target-specific primers, see the primers protocol in this folder.
 
 Index Sequences
 ---------------
-The following are the 20 standard Nextera Indexes. All of them can be used as forward or reverse primer, allowing for a 20*20=400 unique combinations. When placed in the in the Multiplex_rev primer, the barcode sequence should be reverse complemented, so that it will be read in the correct sense during sequencing.
+The following are the 20 standard Nextera Indexes. All of them can be used as forward or reverse primer, allowing for a 20*20=400 unique combinations. 
+
+**NOTE!** When placed in the in the Multiplex_rev primer, the barcode sequence should be reverse complemented, so that it will be read in the correct sense during sequencing. Since you will write sample sheets many more times than ordering primers, it pays off to reverse complement when ordering. 
 
 +------------+------------+-----------+-----------+
 |           i7            |          i5           |
