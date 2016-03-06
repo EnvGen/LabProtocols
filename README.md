@@ -3,8 +3,8 @@ LabProtocols
 
 The Environmental Genomic Group also does lab work. This is how we do it.
 
-The Amplicon_dual_index_prep ia a protocol for preparing amplicon libraries for Illumina sequencing, with up to 400 unique barcodes, but this is easily extendable to other sequences.
+The Amplicon_dual_index_prep_EnvGen.rst is a protocol for preparing amplicon libraries for Illumina sequencing, with up to 1152 unique barcodes combinations (The_32_36_indexes_sequences_EnvGen.rst). 
 
-For specific primer sequences, check the Primer_sequences file.
+For specific 16S and 18S primer sequences, check Primer_sequences.rst, their targeted phylums were presented in a table (The_16S_18S_primers_targeted_phylums.rst). 
 
-CA_cleaning is how we clean our PCR products. It is automated in a Magnetic Bead Station, and cannot be used otherwise.
+All protocol related files in their original format are also offered in links.   

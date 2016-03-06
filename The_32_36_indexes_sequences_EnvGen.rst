@@ -2,8 +2,6 @@
 The 32*36 indexes sequences
 =============================
 
-Index sequences
-
     The strategy of barcoding samples with dual indexes enables high-throughput sequencing on multiple samples in one run. Sample-specific combination of dual indexes enables recognizing various samples from the yielded large data set. Our barcoding primers (in house) allow 32*36 = 1152 combinations.  The following are the 32*36 indexes : 
     
     .. image:: https://cloud.githubusercontent.com/assets/5807710/13555999/d14b1dbc-e3cf-11e5-94c1-51401ea839f3.png
