@@ -12,7 +12,6 @@ Index sequences
                 :height: 450px
                 :alt: alternate text
     
-        
 You can download the index sequences table in `excel <https://github.com/huyue87/hello-world/files/160388/index_primers_32_36.xlsx>`_  format.
 
 For any issue about the dual index sequences, please contact peter.savolainen@scilifelab.se or yue.hu@scilifelab.se .
