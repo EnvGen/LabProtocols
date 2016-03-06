@@ -1,0 +1,14 @@
+=============================================================
+16S and 18S primers targeted phylums (based on RDP database)
+=============================================================
+
+The heatmap below illustrates the `16S and 18S primers <https://github.com/EnvGen/LabProtocols/blob/master/Primer_sequences.rst>`_ targeted phylums. 
+
+    .. image:: https://cloud.githubusercontent.com/assets/5807710/13556554/a1a4d7bc-e3dc-11e5-8dca-bfa462a7df90.png
+                :width: 450px
+                :align: center
+                :height: 450px
+                :alt: alternate text
+    
+        
+You can download the table in `excel <https://github.com/huyue87/hello-world/files/160392/Primer_sequences_matched_RDP_database_Yue_2012Oct09.xlsx>`_  format.
