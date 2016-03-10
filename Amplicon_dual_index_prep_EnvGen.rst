@@ -178,7 +178,7 @@ The figure below illustrates the development of the amplicon’s structure in ea
 
 **1)	Calculating molar concentration::**
  
-            Concentration*106 / 656.6*Length
+            Concentration * 10^6 / 656.6*Length
     
         Units of concentration and length: ng/uL and bp 
 
