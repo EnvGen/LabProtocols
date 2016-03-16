@@ -1,8 +1,8 @@
 =============================================================
-16S and 18S primers targeted phylums (based on RDP database)
+Taxonomic coverage of 16S primers (based on the RDP database and the RDP Probe Match tool https://rdp.cme.msu.edu/)
 =============================================================
 
-The heatmap below illustrates the `16S and 18S primers <https://github.com/EnvGen/LabProtocols/blob/master/Primer_sequences.rst>`_ targeted phylums. 
+The table below illustrates the `16S primers <https://github.com/EnvGen/LabProtocols/blob/master/Primer_sequences.rst>`_ targeted phylums. 
         
 You can download the table in `excel <https://github.com/huyue87/hello-world/files/160392/Primer_sequences_matched_RDP_database_Yue_2012Oct09.xlsx>`_  format.
 
