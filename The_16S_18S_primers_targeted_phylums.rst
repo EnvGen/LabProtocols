@@ -1,6 +1,6 @@
-=============================================================
+====================================================================================================================
 Taxonomic coverage of 16S primers (based on the RDP database and the RDP Probe Match tool https://rdp.cme.msu.edu/)
-=============================================================
+====================================================================================================================
 
 The table below illustrates the `16S primers <https://github.com/EnvGen/LabProtocols/blob/master/Primer_sequences.rst>`_ targeted phylums. 
         
