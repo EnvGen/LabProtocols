@@ -128,7 +128,7 @@ The figure below illustrates the development of the amplicon’s structure in ea
 
     PCR reaction mixture: 
 
-        12 μL of the cleaned PCR product from Clean-up#1
+        12 μL of the cleaned PCR product from Clean-up#1 (no more than 5ng of the cleaned amplicon product is suggested)
 
         14 uL of KAPA ReadyMix (2X)
 
