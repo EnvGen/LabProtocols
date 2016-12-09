@@ -198,6 +198,6 @@ The figure below illustrates the development of the amplicon’s structure in ea
                 :alt: alternate text
     
         
-You can download the index sequences table in `excel <https://github.com/huyue87/hello-world/files/160388/index_primers_32_36.xlsx>`_  format and the whole protocol in `docx <https://github.com/huyue87/hello-world/files/160510/Dual_index_protocol_EnvGen.docx>`_ format.
+You can download the index sequences table in `excel <https://github.com/huyue87/hello-world/files/160388/index_primers_32_36.xlsx>`_  format.
 
 For any issue about the dual index prep protocol, please contact luisa.hugerth@scilifelab.se or yue.hu@scilifelab.se 
