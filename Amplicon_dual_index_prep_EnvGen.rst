@@ -185,7 +185,7 @@ The figure below illustrates the development of the amplicon’s structure in ea
     For concentration, a fluorometric measurement such as Qubit (Invitrogen) or Quant-iT PicoGreen (Invitrogen) should be preferred over an auto-fluorescence method such as NanoDrop (Thermo Scientific). 
     For length measuring, Measure the DNA fragment length. BioAnalyzer (Agilent) is recommended, but a simple agarose gel may be sufficient.
     
-    Sequencing in SciLifeLab, Qubit (dsDNA HS Assay kit) result and Bioanalyzer report are required when handing in library. The library concentration should be > 2nM.
+    Sequencing in SciLifeLab, Qubit (dsDNA HS Assay kit) result and Bioanalyzer report are required when handing in library. The library concentration should be > 10nM.
 
 **2)	Index sequences**
 
