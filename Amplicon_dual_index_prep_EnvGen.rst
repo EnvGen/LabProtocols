@@ -72,7 +72,7 @@ The figure below illustrates the development of the amplicon’s structure in ea
     
     Option 2: load primers with multi-channel pipette after loading the KAPA mastermix and DNA template. Start PCR amplification within 5 mins.
     
-    Here you can also find `16S and 18S rRNA primer sequences <https://github.com/EnvGen/LabProtocols/blob/master/Primer_sequences.rst>`_ and their `targeted phylums <https://github.com/huyue87/hello-world/files/160392/Primer_sequences_matched_RDP_database_Yue_2012Oct09.xlsx>`_ matching to RDP database.
+    Here you can also find `16S and 18S rRNA primer sequences <https://github.com/EnvGen/LabProtocols/blob/master/Primer_sequences.rst>`_ and their `targeted phyla <https://github.com/huyue87/hello-world/files/160392/Primer_sequences_matched_RDP_database_Yue_2012Oct09.xlsx>`_ matching to RDP database.
     
     Annealing temperatures for commonly used primer pairs::
 
