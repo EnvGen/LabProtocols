@@ -29,3 +29,5 @@ F and R mean Forward and Reverse, respectively
 The numbers for 16S primers refer to position in E. coli and the ones in 18S primers refer to S. cerevisiae positions
 
 For other primers, we recommend the review by `Klindworth et al <http://www.ncbi.nlm.nih.gov/pubmed/22933715>`_
+
+You can also find these primers’ `targeted phyla <https://github.com/huyue87/hello-world/files/160392/Primer_sequences_matched_RDP_database_Yue_2012Oct09.xlsx>`_ matching to RDP database.
