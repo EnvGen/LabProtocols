@@ -30,4 +30,4 @@ The numbers for 16S primers refer to position in E. coli and the ones in 18S pri
 
 For other primers, we recommend the review by `Klindworth et al <http://www.ncbi.nlm.nih.gov/pubmed/22933715>`_
 
-You can also find these primers’ `targeted phyla <https://github.com/huyue87/hello-world/files/160392/Primer_sequences_matched_RDP_database_Yue_2012Oct09.xlsx>`_ matching to RDP database.
+You can also find these primers’ `targeted phyla <https://github.com/EnvGen/LabProtocols/blob/master/The_16S_18S_primers_targeted_phylums.rst>`_ matching to RDP database.
