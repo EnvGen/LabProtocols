@@ -8,7 +8,7 @@ The workflow of MiSeq dual indexing library preparation involves the following s
 
 The figure below illustrates the development of the amplicon’s structure in each main step. For the detailed description please see the following pages. 
 
-.. image:: https://github.com/EnvGen/LabProtocols/files/746229/55a9442c-e3b1-11e5-8213-df93a6e55958.pdf
+.. image:: https://github.com/EnvGen/LabProtocols/55a9442c-e3b1-11e5-8213-df93a6e55958.pdf
     :width: 360px
     :align: center
     :height: 280px
