@@ -21,6 +21,10 @@ The figure below illustrates the development of the amplicon’s structure in ea
     * Qubit (Invitrogen); 
     * Quant-iT PicoGreen (Thermo Fisher) (Optional);
     * BSA (New England BioLabs) (optional).
+    
+**If publishing based on this protocol, pleace cite:**
+
+`DegePrime, a program for degenerate primer design for broad-taxonomic-range PCR in microbial ecology studies <https://www.ncbi.nlm.nih.gov/pubmed/24928874>`_
  
 **1) Inner PCR**
 
